@@ -1,0 +1,58 @@
+body { 
+    
+    font-size: 10px;
+}
+
+.grid{
+    width: 50rem;
+    height:50rem;
+    background-color: #999;
+    // perspective: 600px;
+    &__cell{
+      
+    }
+    &__card:hover {
+      
+    }
+    &__card{
+position: relative;
+transform-style: preserve-3d;
+transition: transform 0.6s;
+        
+        &--front{
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background-color: #222;
+            color:white;
+            backface-visibility: hidden;
+        }
+        &--back{
+            width: 100%;
+            height: 100%;
+            background-color: white;
+            
+            backface-visibility: hidden;
+            transform: rotateY(180deg);
+        }
+        &--flipped{
+            transform: rotateY(180deg);
+        }
+
+        &--small{
+            width:10rem;
+            height:10rem;
+            
+        }
+        &--medium{
+            width: 2rem;
+            height: 1rem;
+        }
+        &--big{
+            width: 2rem;
+            height: 2rem;
+        }
+    }
+   
+}
+
