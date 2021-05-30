@@ -12,7 +12,7 @@ Simple flip by animation by click or touch
 
 ## Links
 
-- Solution URL: https://github.com/ersati/faq-card
+- Solution URL: https://github.com/ersati/flipCard
 - Live Site URL: https://ersati.github.io/flipCard/index.html
 
 #### Users should be able to:
